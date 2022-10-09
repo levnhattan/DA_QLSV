@@ -1,5 +1,4 @@
-﻿
-namespace CS464_G_INDIVIDUAL_PROJECT
+﻿namespace CS464_G_INDIVIDUAL_PROJECT
 {
     partial class SinhVien
     {

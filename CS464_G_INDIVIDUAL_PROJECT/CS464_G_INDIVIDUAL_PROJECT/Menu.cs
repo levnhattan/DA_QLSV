@@ -15,5 +15,34 @@ namespace CS464_G_INDIVIDUAL_PROJECT
         {
             InitializeComponent();
         }
+
+        private void QuanLyToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if(Application.OpenForms["MonHoc"] == null)
+            {
+                MonHoc qlmn = new MonHoc();
+                qlmn.MdiParent = this.MdiParent;
+                qlmn.Show();
+            }
+            else
+            {
+                Application.OpenForms["MonHoc"].Activate();
+            }
+        }
+
+        private void SinhVienToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if(Application.OpenForms["SinhVien"] == null)
+            {
+                SinhVien sv = new SinhVien();
+                sv.MdiParent = this.MdiParent;
+                sv.Show();
+
+            }
+            else
+            {
+                Application.OpenForms["SinhVien"].Activate();
+            }
+        }
     }
 }

@@ -10,7 +10,7 @@ namespace CS464_G_INDIVIDUAL_PROJECT
 {
     class LopDungChung
     {
-        string ketnoi = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\DoAn\CS464_G_INDIVIDUAL_PROJECT\CS464_G_INDIVIDUAL_PROJECT\Database1.mdf;Integrated Security=True";
+        string ketnoi = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Admin\Documents\DA_QLSV\CS464_G_INDIVIDUAL_PROJECT\CS464_G_INDIVIDUAL_PROJECT\Database1.mdf;Integrated Security=True";
         SqlConnection conn;
         public LopDungChung()
         {
